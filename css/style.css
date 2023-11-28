@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+.h3 {
+    color: gray;
+    font-family: 'Tilt Neon', sans-serif;
+    position: relative;
+    animation: header;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 0px;}
+}
+
+.h4 {
+    color: lightseagreen;
+    position: relative;
+    animation: header;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.imgg {
+    width: 25%;
+    animation: aniimg;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aniimg {
+    0% {opacity: 0;} /*0 - 1*/
+    100% {opacity: 1;}
+}
+
+.tablee {
+    color: darkgreen;
+    margin-left: 43%;
+    position: relative;
+    animation: foo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes foo {
+    0% {bottom: -250px;}
+    100% {bottom: 0px;}
+}
+
+
+.linkk{
+    color: crimson;
+}
+
+.foot{
+    color: mediumblue;
+}
+
+
+
